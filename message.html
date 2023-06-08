@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revoe Final Submission</title>
+    <link rel="stylesheet" href="css/message.css">
+</head>
+<body>
+    <nav>
+        <div class="poto-logo">
+            <img src="img/revo.png" alt="">
+        </div>
+        <div class="menu-pilihan">
+        <ul>
+            <li onclick="location.href='index.html'"><a href="index.html">Home</a></li>
+            <li onclick="location.href='profile.html'"><a href="profile.html">OurProfile</a></li>
+            <li onclick="location.href='portofolio.html'"><a href="https://github.com/usersstfu?tab=repositories">Portofolio</a></li>
+            <li onclick="location.href='message.html'"><a href="message.html">MassageUs</a></li>
+        </ul>
+        </div>
+    </nav>
+    
+
+    <section class="message" >
+        
+        <h1>Message Us</h1>
+        <div class="isi">
+        <form action="" id="hasil">
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="nama" id="nama"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input type="date" id="tgl"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio" id="jenis" value="laki-laki" name="jenis"> <label for="jenis">Laki-Laki</label>
+                        <input type="radio" id="jenisP" value="perempuan" name="jenis"> <label for="jenisP">Perempuan</label></td>
+                </tr>
+                <tr>
+                    <td>Pesan</td>
+                    <td>:</td>
+                    <td><textarea name="" id="pesan" cols="30" rows="0"></textarea></td>
+                </tr>
+            </table>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+
+        <p id="output"></p>
+    </div>
+    </section>
+
+    <footer> <p>Created By RevoU</p></footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+
+.poto-logo img{
+    padding: 10px;
+    width: 40%;
+}
+
+.menu-pilihan ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.menu-pilihan ul li{
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.menu-pilihan ul li:last-child{
+    border-right: none;
+}
+
+.menu-pilihan ul li a{
+    text-decoration: none;
+    color: #ffde3d;
+}
+
+.menu-pilihan ul li:hover{
+    background-color: #ffde3d;
+}
+
+.menu-pilihan ul li:hover a{
+    color: #333;
+    cursor: pointer;
+    
+}
+
+.message {
+    border-top: 2px solid grey;
+    height: 550px;
+}
+
+.isi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.isi button{
+    width: 100%;
+    height: 15%;
+}
+
+.isi input[type=text], input[type=date] {
+    width: 100%;
+}
+
+.isi table {
+    margin-top: 15px;
+}
+
+.isi table tr{
+    margin-top: 10px;
+}
+
+.isi table td {
+    padding: 10px;
+    height: 15px;
+}
+
+
+.message h1{
+    margin: 15px;
+}
+
+.message form{
+    margin-left: 15px;
+}
+
+#output {
+    border-style: groove;
+    width: 50%;
+    margin-right: 3%;
+}
+
+footer{
+    margin-top: 24px;
+    border: 2px solid grey;
+    border-style: solid none solid none;
+    text-align: end;
+    height: 50px;
+}
+
+footer p{
+    padding: 15px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    .poto-logo img{
+        width: 30%;
+        align-items: center;
+    }
+
+    nav {
+        display: block;
+        padding: 10px;
+    }
+
+    .menu-pilihan ul {
+        margin-right: 10px;
+        display: block;
+    }
+
+    .menu-pilihan ul li {
+        padding: 0.5px;
+        border-right: none;
+        border-top: 2px solid whitesmoke;
+        text-align: center;
+    }
+    .menu-pilihan ul li a {
+        font-size: 15px;
+    }
+
+    .isi {
+        display: block;
+        margin-right: 10px;
+    }
+
+    #output {    
+        width: 90%;
+        height: 150px;
+        margin: 15px 10px;
+    }
+
+    .isi table td {
+        padding: 0;
+    }
+
+
+    .isi button {
+        margin-top: 10px;
+        height: 30px;
+    }
+}
+
+/* @media screen and (min-width: 375px) and (max-width: 425px) {
+    .poto-logo img{
+        width: 50%;
+    }
+    .menu-pilihan ul {
+        margin-right: 10px;
+    }
+    .menu-pilihan ul li {
+        padding: 5px;
+    }
+    .menu-pilihan ul li a {
+        font-size: 15px;
+    }
+} */
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    .poto-logo img{
+        width: 45%;
+    }
+    .menu-pilihan ul li {
+        padding: 10px;
+    }
+    .menu-pilihan ul li a {
+        font-size: 15px;
+    }
+
+    .isi {
+        display: block;
+        margin-right: 10px;
+    }
+
+    #output {    
+        width: 90%;
+        height: 150px;
+        margin: 15px 10px;
+    }
+
+    /* .isi table td {
+        padding: 0;
+    } */
+
+
+    .isi button {
+        margin-top: 10px;
+        height: 30px;
+    }
+}
+
