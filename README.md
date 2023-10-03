@@ -2,7 +2,7 @@
 
 Final Submission Untuk Software Engineering Fundamental Course, RevoU Mini Course
 
-[![screenshot (91).png](https://ibb.co/vc35zM3)]
+<img src="https://i.ibb.co/9pbXYdb/Screenshot-91.png" alt="Screenshot-91" border="0">
 
 Website untuk menampilkan isi profile dan dapat menginputkan dan menampilkan hasil comment yang telah diinputkan menggunakan javascript
 
